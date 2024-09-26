@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-shrink{
+    width: 60px;
+    overflow: hidden;
+}
+.nav-shrink h6{
+    display: none;
+}
+.actv .icon{
+    border-bottom: 2px solid grey;
+    padding-bottom: 5px;
+    
+}
+.actv{
+    cursor: pointer;
+}
